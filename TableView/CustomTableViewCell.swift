@@ -103,25 +103,6 @@ final class CustomTableViewCell: UITableViewCell {
                 make.bottom.equalToSuperview().offset(-6)
             }
         
-        
-//        iconContainer.snp.makeConstraints { make in
-//                make.leading.equalToSuperview().offset(10)
-//                make.centerY.equalToSuperview()
-//                make.height.equalTo(contentView.snp.height).offset(-12)
-//                make.width.equalTo(iconContainer.snp.height)
-//            }
-//            
-//            iconImagesView.snp.makeConstraints { make in
-//                make.size.equalTo(iconContainer).multipliedBy(1.5)
-//                make.edges.equalToSuperview()
-//            }
-//            
-//            label.snp.makeConstraints { make in
-//                make.leading.equalTo(iconContainer.snp.trailing).offset(10)
-//                make.trailing.equalToSuperview().offset(-10)
-//                make.top.equalToSuperview().offset(6)
-//                make.bottom.equalToSuperview().offset(-6)
-//            }
     }
     
    
